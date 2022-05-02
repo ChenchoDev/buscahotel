@@ -320,9 +320,6 @@ function fmostrarFotos(datos) {
         foto.className = "card"
         resultado.append(foto)
 
-        let fotonombre = document.createElement('p')
-        fotonombre.append(i.ml_tags.tag_name)
-
         let imgfoto = document.createElement('img')
         imgfoto.className = 'card-img-top'
         imgfoto.src = i.url_max
