@@ -324,7 +324,7 @@ function fmostrarFotos(datos) {
         imgfoto.className = 'card-img-top'
         imgfoto.src = i.url_max
 
-        foto.append(imgfoto, fotonombre)
+        foto.append(imgfoto)
     }
 
 }
